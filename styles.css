@@ -51,6 +51,11 @@ a{
     font-style: "light italic";
     color: #1F2937;
 }
+.quote-box{
+    margin: 10px 100px;
+}
+
+
 .information{
     display: flex;
     flex-direction: column;
@@ -64,7 +69,7 @@ a{
     gap: 28px;
 }
 .image{
-    border: 5px blue solid;
+    border: 5px solid #3882F6;
     border-radius: 15px;
     width: 100px;
     height: 100px;
@@ -83,6 +88,10 @@ a{
     justify-content: center;
     padding: 18px;
 }
+.quote-text{
+    font-style: italic;
+
+}
 .sign-up{
     display: flex;
     justify-content: center;
@@ -90,12 +99,37 @@ a{
     padding: 18px;
 }
 .blue-box{
-    background-color: blue;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 .left-signup-text{
     display: flex;
     flex-direction: column;
     justify-content: center;  
+}
+
+.sign-up-button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+
+
+}
+
+.white-border{
+    border-color: white;
+    align-self: center;
+}
+.call-to-action{
+    font-weight: 800;
+    font-size: 24px;
+}
+#description-image{
+    background-color: gray;
 }
